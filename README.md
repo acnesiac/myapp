@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+This project intends to clarify the use of useEffect
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
