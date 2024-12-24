@@ -12,15 +12,12 @@ function App() {
       console.log({value});
       //setValueMinus(--valueMinus); // will create a infinite loop
   });
-  function clickMe(){
-    setValue(value++);
-    //setValueMinus(--valueMinus);
-  }
+
   return (
     <div className="App">
       <div>{valueMinus}</div>
      <input type='text' value={value}></input>
-     <button onClick={clickMe()}>press</button>
+     <button onClick={setValue(value++)}>press</button>
     </div>
   );
 }
